@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBBCCDF015F513D7007E5BB1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBBCCDEF15F513D7007E5BB1 /* UIKit.framework */; };
+		FBBCCDF215F513D7007E5BB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBBCCDF115F513D7007E5BB1 /* Foundation.framework */; };
+		FBBCCDF415F513D7007E5BB1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBBCCDF315F513D7007E5BB1 /* CoreGraphics.framework */; };
+		FBBCCDFA15F513D7007E5BB1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FBBCCDF815F513D7007E5BB1 /* InfoPlist.strings */; };
+		FBBCCDFC15F513D7007E5BB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBCCDFB15F513D7007E5BB1 /* main.m */; };
+		FBBCCE0015F513D7007E5BB1 /* BWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBCCDFF15F513D7007E5BB1 /* BWAppDelegate.m */; };
+		FBBCCE0315F513D7007E5BB1 /* BWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBCCE0215F513D7007E5BB1 /* BWViewController.m */; };
+		FBBCCE0615F513D7007E5BB1 /* BWViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBBCCE0415F513D7007E5BB1 /* BWViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FBBCCDEB15F513D7007E5BB1 /* BWRepeater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BWRepeater.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBBCCDEF15F513D7007E5BB1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FBBCCDF115F513D7007E5BB1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FBBCCDF315F513D7007E5BB1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FBBCCDF715F513D7007E5BB1 /* BWRepeater-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BWRepeater-Info.plist"; sourceTree = "<group>"; };
+		FBBCCDF915F513D7007E5BB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FBBCCDFB15F513D7007E5BB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FBBCCDFD15F513D7007E5BB1 /* BWRepeater-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BWRepeater-Prefix.pch"; sourceTree = "<group>"; };
+		FBBCCDFE15F513D7007E5BB1 /* BWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWAppDelegate.h; sourceTree = "<group>"; };
+		FBBCCDFF15F513D7007E5BB1 /* BWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWAppDelegate.m; sourceTree = "<group>"; };
+		FBBCCE0115F513D7007E5BB1 /* BWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWViewController.h; sourceTree = "<group>"; };
+		FBBCCE0215F513D7007E5BB1 /* BWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWViewController.m; sourceTree = "<group>"; };
+		FBBCCE0515F513D7007E5BB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BWViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBBCCDE815F513D7007E5BB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBBCCDF015F513D7007E5BB1 /* UIKit.framework in Frameworks */,
+				FBBCCDF215F513D7007E5BB1 /* Foundation.framework in Frameworks */,
+				FBBCCDF415F513D7007E5BB1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBBCCDE015F513D7007E5BB1 = {
+			isa = PBXGroup;
+			children = (
+				FBBCCDF515F513D7007E5BB1 /* BWRepeater */,
+				FBBCCDEE15F513D7007E5BB1 /* Frameworks */,
+				FBBCCDEC15F513D7007E5BB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBBCCDEC15F513D7007E5BB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBBCCDEB15F513D7007E5BB1 /* BWRepeater.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBBCCDEE15F513D7007E5BB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBBCCDEF15F513D7007E5BB1 /* UIKit.framework */,
+				FBBCCDF115F513D7007E5BB1 /* Foundation.framework */,
+				FBBCCDF315F513D7007E5BB1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBBCCDF515F513D7007E5BB1 /* BWRepeater */ = {
+			isa = PBXGroup;
+			children = (
+				FBBCCDFE15F513D7007E5BB1 /* BWAppDelegate.h */,
+				FBBCCDFF15F513D7007E5BB1 /* BWAppDelegate.m */,
+				FBBCCE0115F513D7007E5BB1 /* BWViewController.h */,
+				FBBCCE0215F513D7007E5BB1 /* BWViewController.m */,
+				FBBCCE0415F513D7007E5BB1 /* BWViewController.xib */,
+				FBBCCDF615F513D7007E5BB1 /* Supporting Files */,
+			);
+			path = BWRepeater;
+			sourceTree = "<group>";
+		};
+		FBBCCDF615F513D7007E5BB1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBBCCDF715F513D7007E5BB1 /* BWRepeater-Info.plist */,
+				FBBCCDF815F513D7007E5BB1 /* InfoPlist.strings */,
+				FBBCCDFB15F513D7007E5BB1 /* main.m */,
+				FBBCCDFD15F513D7007E5BB1 /* BWRepeater-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBBCCDEA15F513D7007E5BB1 /* BWRepeater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBBCCE0915F513D7007E5BB1 /* Build configuration list for PBXNativeTarget "BWRepeater" */;
+			buildPhases = (
+				FBBCCDE715F513D7007E5BB1 /* Sources */,
+				FBBCCDE815F513D7007E5BB1 /* Frameworks */,
+				FBBCCDE915F513D7007E5BB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BWRepeater;
+			productName = BWRepeater;
+			productReference = FBBCCDEB15F513D7007E5BB1 /* BWRepeater.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBBCCDE215F513D7007E5BB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = zzu;
+			};
+			buildConfigurationList = FBBCCDE515F513D7007E5BB1 /* Build configuration list for PBXProject "BWRepeater" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FBBCCDE015F513D7007E5BB1;
+			productRefGroup = FBBCCDEC15F513D7007E5BB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBBCCDEA15F513D7007E5BB1 /* BWRepeater */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBBCCDE915F513D7007E5BB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBBCCDFA15F513D7007E5BB1 /* InfoPlist.strings in Resources */,
+				FBBCCE0615F513D7007E5BB1 /* BWViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBBCCDE715F513D7007E5BB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBBCCDFC15F513D7007E5BB1 /* main.m in Sources */,
+				FBBCCE0015F513D7007E5BB1 /* BWAppDelegate.m in Sources */,
+				FBBCCE0315F513D7007E5BB1 /* BWViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FBBCCDF815F513D7007E5BB1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBBCCDF915F513D7007E5BB1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FBBCCE0415F513D7007E5BB1 /* BWViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBBCCE0515F513D7007E5BB1 /* en */,
+			);
+			name = BWViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBBCCE0715F513D7007E5BB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FBBCCE0815F513D7007E5BB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBBCCE0A15F513D7007E5BB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BWRepeater/BWRepeater-Prefix.pch";
+				INFOPLIST_FILE = "BWRepeater/BWRepeater-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FBBCCE0B15F513D7007E5BB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BWRepeater/BWRepeater-Prefix.pch";
+				INFOPLIST_FILE = "BWRepeater/BWRepeater-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBBCCDE515F513D7007E5BB1 /* Build configuration list for PBXProject "BWRepeater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBBCCE0715F513D7007E5BB1 /* Debug */,
+				FBBCCE0815F513D7007E5BB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBBCCE0915F513D7007E5BB1 /* Build configuration list for PBXNativeTarget "BWRepeater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBBCCE0A15F513D7007E5BB1 /* Debug */,
+				FBBCCE0B15F513D7007E5BB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBBCCDE215F513D7007E5BB1 /* Project object */;
+}
